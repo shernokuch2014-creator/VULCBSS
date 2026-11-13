@@ -1,0 +1,15 @@
+name: VulcBoss
+version: 1.0.0
+main: uz.vulcboss.VulcBossPlugin
+api-version: '1.21'
+description: Vulkan Boss eventi - har kuni Toshkent vaqti bilan 19:00 da
+commands:
+  vulcboss:
+    description: VulcBoss admin buyrug'i
+    usage: /vulcboss <start|stop|warp>
+    permission: vulcboss.admin
+permissions:
+  vulcboss.admin:
+    default: op
+  vulcboss.warp:
+    default: true

@@ -1,0 +1,14 @@
+# Event vaqti (Asia/Tashkent - O'zbekiston vaqti)
+event-hour: 19
+event-minute: 0
+
+# Boss HP: base + (o'yinchilar soni - 1) * hp-per-extra-player
+base-hp: 2000
+hp-per-extra-player: 500
+
+# Boss necha daqiqadan keyin yer ostiga qaytib ketadi (o'ldirilmasa)
+time-limit-minutes: 20
+
+# Qo'shimcha mukofot buyruqlari (konsol orqali). %player% = o'yinchi nomi
+# Misol: - "eco give %player% 5000"
+reward-commands: []
